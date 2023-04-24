@@ -19,6 +19,7 @@ export const UserProvider = ({ children }) => {
 			if (user) {
 				createUserDocFromAuth(user);
 			}
+
 			setCurrentUser(user);
 		});
 
